@@ -55,6 +55,7 @@ $NoMatchingOSMTests = ['ExampleModel.rb',
                        'autosize_hvac.rb',
                       ]
 
+# Echo the OS version used for checking
 puts "Running for OpenStudio #{$SdkLongVersion}"
 
 # Where to cp the out.osw for regression
