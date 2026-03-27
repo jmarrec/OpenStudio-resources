@@ -20,6 +20,9 @@ class ModelTests < Minitest::Test
   parallelize_me!
 
   # simulation tests
+  def test_ashp_backup_boiler_py
+    result = sim_test('ashp_backup_boiler.py')
+  end
 
   def test_absorption_chillers_rb
     result = sim_test('absorption_chillers.rb')
